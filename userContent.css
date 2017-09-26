@@ -1,0 +1,13 @@
+@-moz-document domain("medium.com") {
+  /* Hides the monumentally gigantic footer on all medium pages */
+  div.js-stickyFooter {
+    display: none;
+  }
+}
+
+@-moz-document domain("bloomberg.com") {
+  /* Why woud I want this 1) autoplaying?!? 2) over the article text ?!? */
+  bb-mini-player {
+    display: none;
+  }
+}
