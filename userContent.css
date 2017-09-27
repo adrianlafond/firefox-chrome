@@ -1,8 +1,6 @@
-@-moz-document domain("medium.com") {
-  /* Hides the monumentally gigantic footer on all medium pages */
-  div.js-stickyFooter {
-    display: none;
-  }
+/* Hides the monumentally gigantic footer on all Medium pages */
+div.u-fixed.js-stickyFooter {
+  display: none;
 }
 
 @-moz-document domain("bloomberg.com") {
